@@ -12,6 +12,10 @@ import { AboutComponent } from './about/about.component';
 import { RestaurantesComponent } from './restaurantes/restaurantes.component';
 import { RestauranteComponent } from './restaurantes/restaurante/restaurante.component';
 import { RestaurantesService } from './restaurantes/restaurantes.service';
+import { RestauranteDetailComponent } from './restaurante-detail/restaurante-detail.component';
+import { MenuComponent } from './restaurante-detail/src/app/restaurante-detail/menu/menu.component';
+import { ShoppingCartComponent } from './restaurante-detail/src/app/restaurante-detail/shopping-cart/shopping-cart.component';
+import { MenuItemComponent } from './restaurante-detail/src/app/restaurante-detail/menu-item/menu-item.component';
 
 
 
@@ -22,7 +26,11 @@ import { RestaurantesService } from './restaurantes/restaurantes.service';
     HomeComponent,
     AboutComponent,
     RestaurantesComponent,
-    RestauranteComponent
+    RestauranteComponent,
+    RestauranteDetailComponent,
+    MenuComponent,
+    ShoppingCartComponent,
+    MenuItemComponent
   ],
   imports: [
     BrowserModule,
